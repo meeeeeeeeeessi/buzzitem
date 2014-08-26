@@ -1,0 +1,20 @@
+@charset "UTF-8";
+/*
+Theme Name: Buzzitem
+Theme URI: no where
+Description: This is my original theme.
+Author: HugeTree
+Author URI:
+Version:1.0
+*/
+
+@import url(css/layout.css);
+@import url(css/front-page.css);
+@import url(css/common.css);
+@import url(css/content.css);
+@import url(css/single.css);
+@import url(css/archive.css);
+/*
+@import url(css/html5reset-1.6.1.css);
+@import url(css/404.css);
+*/

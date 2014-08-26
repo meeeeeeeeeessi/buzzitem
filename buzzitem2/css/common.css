@@ -1,0 +1,299 @@
+@charset "UTF-8";
+
+
+==================================
+common - element
+==================================
+
+a {
+	color: -webkit-link;
+	text-decoration: none;
+	cursor: auto;
+}
+
+
+p {
+	font-family: "Hiragino Kaku Gothic ProN", Meiryo, sans-serif;	
+}
+
+h1 {
+	font-family: "Hiragino Kaku Gothic ProN", Meiryo, sans-serif;
+}
+
+==================================
+common - header
+==================================
+
+#header {
+}
+
+#logo {
+	width: 100%;
+	height: 80px;
+	overflow: hidden;
+	background-color: #19c46f;
+}
+
+#logo-img {
+	
+}
+
+/* h1#logo-title {
+	display: block;
+	width: 280px;
+	font-size: 48px;
+	line-height: ;
+	font-weight: bold;
+	margin: 0 auto;
+	padding: 0;
+	color: #ffffff;
+} */
+
+#global-navi {
+	display: block;
+	width: 100%;
+	height: 45px;
+	overflow: hidden;
+	background-color: #585858;
+	box-shadow: 0 5px rgba(0,0,0,0.2);
+}
+
+#navi-wrap {
+	width: 960px;
+	margin: 0 auto;
+	padding: 0;
+}
+
+li.global-navi {
+	display: block;
+	float: left;
+	margin: 0;  
+	padding: auto;  
+	width: 160px;
+	height: 40px;
+	font-size: 18px;
+	color: #ffffff;
+	text-align: center;
+	vertical-align: middle;
+}
+
+#nav1,#nav4 {
+	box-shadow:  0px 5px rgba(0, 240, 131, 0.9);
+}
+
+#nav2,#nav5 {
+	box-shadow:  0px 5px rgba(0, 156, 229, 0.9);
+}
+
+#nav3,#nav6 {
+	box-shadow:  0px 5px rgba(251, 255, 53, 0.9);
+}
+
+
+#header-categorylist {
+}
+
+#header-taglist {
+}
+
+
+
+==================================
+common - contents
+==================================
+
+.contents-post {
+	display: block;
+	float: left;
+	width: 300px;
+	height: 330px;
+	margin: 10px 10px 30px 10px;
+	padding: 0;
+}
+
+.abc {
+	display: block;
+	float: left;
+	width: 300px;
+	height: 330px;
+	margin: 10px 10px 20px 10px;
+	padding: 0;
+}
+
+.contents-post-img {
+	display: block;	
+	width: 300px;
+	height: 200px;
+	margin: 0;
+	padding: 0;
+}
+
+.contents-post-title {
+	display: block;
+	width: 290px;
+	max-height: 80px;
+	height: auto;
+	overflow: hidden;
+/*	margin: 20px 0 20px auto; */
+	padding: 10px;
+	font-size: 20px;
+	font-weight: bold;
+	color: #050505;
+}
+
+p.contents-post-title {
+	display: block;
+	-webkit-margin-before: 0;
+	-webkit-margin-after: 0;
+	-webkit-margin-start: 0;
+	-webkit-margin-end: 0;
+}
+
+.contents-post-footer {
+	max-width: 300px;
+	width: 100%;
+	height: 30px;
+	margin: 5px 0;
+}
+
+.contents-post-date {
+	max-width: ;
+	width: 130px;
+	height: 30px;
+	font-size: 12px;
+	color: #000000;
+	padding: 0 0 0 5px;
+}
+
+
+==================================
+common - sidebar
+==================================
+
+#ranking {
+	display: block;
+}
+
+#ranking h1 {
+	display: block;
+	width: 320px;
+	height: 40px;
+	font-size: 24px;
+	font-weight: bold;
+	padding: 0;
+	margin-bottom: 30px;
+	color: black;
+	background-color: none;
+	box-shadow: 0 5px rgba(0,0,0,0.6);
+}
+
+.ranking-post {
+	background-color: ;
+	width: 300px;
+	height: 80px;
+	margin: auto;
+	margin-bottom: 15px;
+}
+
+.ranking-post-img {
+	float: left;
+	display: block;
+	width: 120px;
+	height: 80px;
+	margin: 0;
+	margin-right: 10px;
+	padding: 0;
+}
+
+.ranking-post-title {
+	float: right;
+	display: block;
+	width: 170px;
+	height: 80px;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+	font-size: 14px;
+	font-weight: bold;
+	color: #000000;
+	background-color: ;
+	-webkit-margin-before: 0;
+	-webkit-margin-after: 0;
+	-webkit-margin-start: 0;
+	-webkit-margin-end: 0;
+}
+
+#e6e6e6;
+
+
+.ranking-post-title p {
+	font-size: 12px;
+	color: #0f7240;
+	margin: 0;
+	padding: 5px;
+}
+
+#fb-likebox {
+	display: block;
+	width: 280px;
+	margin: 30px auto;
+	margin-top: 50px;
+}
+
+.ad{
+}
+
+.adsence{
+}
+
+.rakuten-ad {
+	display: block;
+	width: 250px;
+	margin: 30px auto;
+}
+
+.amazon-ad {
+}
+
+==================================
+common - footer
+==================================
+
+#footer {
+}
+
+#footer-wrap {
+	background: #585858;
+	height: 80px;
+	display: -webkit-box;
+}
+
+#copyright {
+	display: block;
+	max-width: 320px;
+	height: 10px;
+	margin: auto;
+	margin-top: 60px;
+	font-size: 5px;
+	color: #ffffff;
+}
+
+
+
+==================================
+common - elements
+==================================
+
+p {
+	display: block;
+	-webkit-margin-before: 0;
+	-webkit-margin-after: 0;
+	-webkit-margin-start: 0;
+	-webkit-margin-end: 0;
+}
+
+h1 {
+}
+
+article {
+}

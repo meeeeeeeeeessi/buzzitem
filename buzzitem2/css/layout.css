@@ -1,0 +1,59 @@
+@charset "UTF-8";
+
+body {
+	display: block;
+	margin: 0;
+}
+
+#wrap{
+	background-color: ;
+	max-width: 1600px;
+	width: 100%;
+	margin: 0 auto;
+}
+
+#container {
+}
+
+#header {
+	max-width: 1600px;
+	height: 125px;
+	margin: auto;
+	padding: 0;
+	overflow: hidden;
+}
+
+#main {
+	position: relative;
+	overflow: ;
+	max-width: 1000px;
+	width: 100%;
+	height: auto;
+	margin: 50px auto 100px auto;
+}
+
+#contents {
+	max-width: 650px;
+	width: 100%;
+	float: left;
+	padding: ;
+}
+
+#sidebar {
+	float: right;
+	max-width: 320px;
+	width: 100%;
+	margin: ;
+	padding: ;
+}
+
+
+#footer {
+	clear: both;
+	max-width: 1600px;
+	height: 80px;
+	margin: auto;
+	margin-top: 200px;
+	padding: 0;
+	overflow: hidden;
+}

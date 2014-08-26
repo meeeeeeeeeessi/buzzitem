@@ -1,0 +1,172 @@
+@charset "UTF-8";
+
+
+==================================
+single-page
+==================================
+
+#single-article {
+	width: 650px;
+	height: auto;
+}
+
+p.single-title {
+	max-width: 600px;
+	max-height: 50px;
+	margin: 0;
+	padding: 0 auto;
+	font-size: 24px;
+	font-weight: bold;
+	color: #000000;
+}
+
+.single-date {
+	max-width: ;
+	width: 130px;
+	height: 30px;
+	font-size: 12px;
+	color: #000000;
+	margin: 3px 0 0 5px;
+}
+
+.single-category {
+	display: block;
+	position: ;
+	max-width: ;
+	height: ;
+	font-size: 12px;
+	color: #000000;
+}
+
+.single-tag {
+}
+
+.single-img {
+	display: block;
+	width: 480px;
+	height: 360px;
+	margin: 20px auto;
+}
+
+
+
+#singlepage-article-margin {
+	clear: both;
+	display: block;
+	max-width: ;
+	height: 100px; 
+}
+
+#main-share{
+	display: block;
+	width: 650px;
+	height: auto;
+	margin: 0 auto;
+}
+
+#fb-share {
+	display: block;
+	width: 360px;
+	height: 60px;
+	margin: auto;
+	overflow: hidden;
+}
+
+#sub-share{
+	display: block;
+	width: 360px;
+	height: auto;
+	margin: 0 auto;
+	margin-top: 30px;
+}
+
+#tw-share {
+	float: left;
+	display: block;
+	width: 120px;
+	height: 60px;
+	margin: 0;
+	overflow: hidden;
+}
+
+#line-share {
+	float: left;
+	display: block;
+	width: 120px;
+	height: 60px;
+	overflow: hidden;
+}
+
+#hatebu-share {
+	float: left;
+	display: block;
+	width: 120px;
+	height: 60px;
+	overflow: hidden;
+}
+
+#singlepage-contents-margin {
+	clear: both;
+	display: block;
+	max-width: ;
+	height: 100px; 
+}
+
+#single-article-footer{
+	width: 650px;
+	height: auto;
+}
+
+#fb-comment {
+}
+
+#article-footer-ad {
+}
+
+.adsence {
+}
+
+#recommend-item {
+}
+
+
+
+.share-area {
+width: 100%;
+height: 280px;
+margin-bottom: 10px;
+}
+.share-area a {
+width: 100%;
+height: 30px;
+margin-bottom: 10px;
+padding: 14px 0;
+float: left;
+font-size: 24px;
+font-weight: bold;
+color: #ffffff;
+text-align: center;
+letter-spacing: 0.1em;
+display: inline-block;
+text-decoration: none;
+}
+.share-area a:hover {
+color: #ffffff;
+text-decoration: underline;
+}
+.share-area a#share_fb {
+background-color: #3B5998;
+border-bottom: 1px solid #3C5A98;
+}
+.share-area a#share_tw {
+background-color: #00ACEE;
+border-bottom: 1px solid #0193CB;
+}
+.share-area a#share_hatena {
+background-color: #008FDE;
+border-bottom: 1px solid #007BBF;
+}
+.share-area a#share_line {
+background-color: #00C300;
+border-bottom: 1px solid #21AA10;
+}
