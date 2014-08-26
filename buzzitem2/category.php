@@ -7,7 +7,7 @@
 <?php echo $category_id; ?>
 <?php echo $gtc->name; ?>
 <?php $args = array(
-	'posts_per_page' => 5,
+	'posts_per_page' => 10,
 	'offset' => 0,
 	'category' => $category_id,
 	'orderby' => 'post_date',
